@@ -1,0 +1,35 @@
+GIT
+"Keep track of changes to code"
+"Synchronizes code between different people"
+"Revert back to old versions of code"
+GITHUB "Servicio en la nube"
+git clone <url> para pasar repositorio creado a codigo
+git add <filename> v git add . agregar archivos para subir
+git commit -m "" para subir archivos
+git status para ver cambios agregados o no
+git push para subir los cambios a la nube
+git pull para traer cambios de otro dispositivo al mio directamente
+
+MERGE CONFLICTS---
+
+"Yo hago git pull y github detecta que una linea la editaron dos personas distintas"
+Te envia todo hecho y tu decides cual dejar
+
+Cuando es tu primera vez haciendo un merge conflicts, debes configurar cual version de merge utilizar
+
+git config pull.rebase false -> esta forma te muestra los cambios en el codigo directo "FORMA BONITA"
+
+------------------
+
+git log  para ver versiones de nuestro repositorio "Toodos los commits"
+
+git reset --hard "numero de version commit"
+despues de eso realizar git commit para confirmar el reseteo
+
+MAKING CHANGES--
+
+Branching (ramas)
+
+git branch para ver todas las ramas que tenemos
+git checkout -b "nombre_nueva_rama" para crear una nueva rama
+git marge para unir al codigo original todas las ramas
